@@ -1,33 +1,24 @@
-# La_Memoria_De_React
+# React Memory Game
 Week 19 Hw React.JS
 
-Clicky Game
 Overview
-For this assignment, you'll create a memory game with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
-Instructions
 
-Check out the example solution and study the app's basic functionality.
-Create a new React application using Create React App.
-The application should render different images (of your choice) to the screen. Each image should listen for click events.
-The application should keep track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.
-Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.
-Once the user's score is reset after an incorrect guess, the game should restart.
-When complete, the application should be deployed to Github Pages. See the README generated with Create React App for instructions on deploying the application to Github Pages.
-Minimum Requirements
+*This is a memory game using React. The game will be split into four components.
 
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed.
-Hints
+*The game is render into 16 different images (of your choice) to the screen. Each image should listen for click events.
 
-Begin by building a non-functioning static version for your Clicky Game. Then work on making the game interactive.
-Create a README.md
+*The game is keeping track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.
 
-Add a README.md to your repository describing the project. Here are some resources for creating your README.md. Here are some resources to help you along the way:
-About READMEs
-Mastering Markdown
-Add To Your Portfolio
+*The images will shuffle if the image is pressed twice
 
-After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
-One More Thing
+*Once the user's score is reset after an incorrect guess, the game should restart.
 
-If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
-Good Luck!
+Technologies used
+React
+ES6
+Bootstrap
+CSS
+
+
+
+
