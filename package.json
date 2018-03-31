@@ -1,0 +1,8 @@
+{
+  "name": "Southpark_ReactJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dkim85/Southpark_ReactJS.git",
+  "author": "Danilo Kim <kimhodori@gmail.com>",
+  "license": "MIT"
+}
