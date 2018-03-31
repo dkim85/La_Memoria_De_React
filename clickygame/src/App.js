@@ -25,7 +25,7 @@ class App extends Component {
         }
     }
 
-    selectIcon = character => {
+    selectCharacter = character => {
         const findIcon = this.state.unselectedCharacters.find(item => item.character === character);
 
         if(findIcon === undefined) {
